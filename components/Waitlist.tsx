@@ -12,50 +12,18 @@ export function Waitlist() {
   });
 
   const countries = [
-    "United States",
-    "Canada",
-    "United Kingdom",
-    "Germany",
-    "France",
-    "Japan",
-    "Australia",
-    "Singapore",
-    "Morocco",
-    "Switzerland",
-    "Netherlands",
-    "Sweden",
-    "Norway",
-    "Denmark",
-    "Finland",
-    "Austria",
-    "Belgium",
-    "Ireland",
-    "New Zealand",
-    "South Korea",
-    "Hong Kong",
-    "UAE",
-    "Luxembourg",
-    "Monaco",
-    "Liechtenstein",
-    "Iceland",
-    "Malta",
-    "Cyprus",
-    "Estonia",
-    "Latvia",
-    "Lithuania",
-    "Slovenia",
-    "Czech Republic",
-    "Slovakia",
-    "Poland",
-    "Hungary",
-    "Croatia",
-    "Romania",
-    "Bulgaria",
-    "Greece",
-    "Portugal",
-    "Spain",
-    "Italy",
+    "United States", "Canada", "United Kingdom", "Australia", "New Zealand",
+    "Germany", "France", "Netherlands", "Sweden", "Norway", "Denmark", "Finland",
+    "Ireland", "Belgium", "Austria", "Switzerland", "Luxembourg", "Spain",
+    "Portugal", "Italy", "Greece", "Czech Republic", "Poland", "Hungary",
+    "Slovakia", "Slovenia", "Estonia", "Latvia", "Lithuania", "Croatia",
+    "Romania", "Bulgaria", "Cyprus", "Malta", "Japan", "South Korea", "Singapore",
+    "Taiwan", "Thailand", "Philippines", "Malaysia", "Indonesia", "India",
+    "Brazil", "Argentina", "Chile", "Colombia", "Mexico", "Panama",
+    "South Africa", "Morocco", "UAE", "Qatar", "Saudi Arabia", "Oman", "Kuwait",
+    "Israel", "Turkey", "Georgia", "Armenia", "Vietnam"
   ];
+  
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -98,11 +66,10 @@ export function Waitlist() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-light text-white mb-6">
-            Ready to Transform Your Trading?
+            Ready to Monetize Your Mind?
           </h2>
           <p className="text-xl text-gray-400 font-light mb-8">
-            Join the next generation of quantitative trading. Get early access
-            to CapQuant's institutional-grade platform.
+            Get early access to CapQuant's institutional-grade platform.
           </p>
           <div className="inline-flex items-center space-x-2 px-4 py-2 bg-green-500/10 rounded-full border border-green-500/20">
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
@@ -238,7 +205,7 @@ export function Waitlist() {
           </div>
         </div>
         {/* Social Buttons */}
-        <div className="mt-10 flex justify-center space-x-6">
+        <div className="mt-10 mb-1 flex justify-center space-x-6">
             <a href="#" className="text-gray-400 hover:text-white">
               <FaInstagram className="h-6 w-6" />
             </a>
@@ -252,7 +219,13 @@ export function Waitlist() {
               <FaDiscord className="h-6 w-6" />
             </a>
           </div>
-      </div>
+          <div className="flex justify-center mt-5 mb-0">
+         <a href="https://lotuscapital-invest.com"> <img
+  src="/lotuslogonobg.png"
+  alt="Lotus Logo"
+  className="mx-auto w-65 h-55 transition duration-300 hover:grayscale"
+/></a></div>
+</div>
     </section>
   );
 }

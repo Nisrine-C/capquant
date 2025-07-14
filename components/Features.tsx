@@ -31,7 +31,6 @@ export function Features() {
                 <div className="absolute inset-4">
                   <div className="bg-zinc-800 rounded-lg p-4 h-full font-mono">
                     <div className="flex items-center justify-between mb-3">
-                      <Zap className="w-5 h-5 text-zinc-400" />
                       <div className="flex space-x-1">
                         <div className="w-2 h-2 bg-zinc-400 rounded-full"></div>
                         <div className="w-2 h-2 bg-zinc-400 rounded-full"></div>
@@ -76,7 +75,7 @@ export function Features() {
                 <div className="absolute inset-4">
                   <div className="bg-zinc-800 rounded-lg p-4 h-full">
                     <div className="flex items-center justify-between mb-3">
-                      <Brain className="w-5 h-5 text-zinc-400" />
+                  
                       <span className="text-xs text-zinc-400 font-mono">
                         ML ACTIVE
                       </span>
@@ -122,7 +121,7 @@ export function Features() {
                 <div className="absolute inset-4">
                   <div className="bg-zinc-800 rounded-lg p-4 h-full">
                     <div className="flex items-center justify-between mb-3">
-                      <BarChart3 className="w-5 h-5 text-zinc-400" />
+                    
                       <span className="text-xs text-zinc-400 font-mono">
                         BACKTEST
                       </span>

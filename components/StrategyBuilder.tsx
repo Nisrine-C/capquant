@@ -38,7 +38,7 @@ export default function StrategyBuilder() {
                 </li>
               </ul>
               <Button className="bg-white text-black hover:bg-zinc-200">
-                Explore CapQuant
+                Join Waitlist
               </Button>
             </div>
             <div className="relative">
@@ -54,7 +54,7 @@ export default function StrategyBuilder() {
                     <div className="flex items-center justify-between mb-2">
                       <div className="flex items-center space-x-3">
                         <div className="w-3 h-3 bg-green-300 rounded-full animate-pulse"></div>
-                        <span className="text-green-300 font-medium text-sm">API Active</span>
+                        <span className="text-green-300 font-small text-sm">API Active</span>
                       </div>
                       <div className="flex items-center space-x-2">
                         <div className="w-2 h-2 bg-zinc-400 rounded-full"></div>
@@ -94,7 +94,7 @@ export default function StrategyBuilder() {
                             <div className="w-6 h-6 bg-zinc-700 rounded-md flex items-center justify-center">
                              
                             </div>
-                            <span className="text-sm text-zinc-300 font-medium">Data Input</span>
+                            <span className="text-sm text-zinc-300 font-medium">Data Model I</span>
                           </div>
                         </div>
                         <div className="absolute top-6 left-36 bg-zinc-800 rounded-lg p-3 border border-zinc-600 shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-zinc-700" style={{ zIndex: 2 }}>
@@ -102,7 +102,7 @@ export default function StrategyBuilder() {
                             <div className="w-6 h-6 bg-zinc-700 rounded-md flex items-center justify-center">
                              
                             </div>
-                            <span className="text-sm text-zinc-300 font-medium">Signal Gen</span>
+                            <span className="text-sm text-zinc-300 font-medium">Signal</span>
                           </div>
                         </div>
                         

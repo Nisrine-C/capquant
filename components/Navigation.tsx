@@ -1,5 +1,4 @@
 import { TrendingUp } from "lucide-react";
-import type { Page } from "../App";
 
 export function Navigation() {
   return (

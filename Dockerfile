@@ -6,18 +6,16 @@ WORKDIR /src
 
 # Copy package files and install dependencies
 COPY package*.json ./
-RUN yarn install
-
+RUN npm install
 
 # Copy the entire application code
 COPY . .
 
 # Build the application
-
-RUN yarn build
+RUN npm run build
 
 # Expose the port your app runs on
 EXPOSE 3000
 
 # Command to start the application
-CMD ["yarn", "start"]
+CMD ["npm", "start"]

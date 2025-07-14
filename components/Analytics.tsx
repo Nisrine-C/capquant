@@ -38,7 +38,7 @@ export default function Analytics() {
                 </li>
               </ul>
               <Button className="bg-white text-black hover:bg-zinc-200">
-                Register Now
+                Join Waitlist
               </Button>
             </div>
             <div className="lg:order-1 relative">
@@ -51,7 +51,7 @@ export default function Analytics() {
                     {/* Dashboard Header */}
                     <div className="flex items-center justify-between mb-6">
                       <div className="flex items-center space-x-3">
-                        <div className="w-3 h-3 bg-zinc-400 rounded-full animate-pulse"></div>
+                        
                       </div>
                       <div className="flex items-center space-x-2">
                         <div className="w-2 h-2 bg-zinc-400 rounded-full"></div>
